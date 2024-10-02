@@ -1,0 +1,27 @@
+void PlaneTerrain::handleCollision(const float delta_T, Jelly& jelly) {
+    constexpr float eEPSILON = 0.01f;
+    constexpr float coefResist = 0.8f;
+    constexpr float coefFriction = 0.2f;
+
+    for (int i = 0; i < jelly.getParticleNum(); ++i) {
+        Particle& particle = jelly.getParticle(i);
+        const Eigen::Vector3f& position = particle.getPosition();
+        const Eigen::Vector3f& velocity = particle.getVelocity();
+
+        // Calculate distance from particle to plane
+        float dist = position.dot(normal) - hole_position.dot(normal);
+
+        // Check if particle collides with plane
+        if (dist <= particle.getRadius()) {
+            // Update particle velocity
+            const Eigen::Vector3f& normalVelocity = velocity.dot(normal) * normal;
+            const Eigen::Vector3f& tangentVelocity = velocity - normalVelocity;
+            particle.setVelocity(coefResist * (tangentVelocity - eEPSILON * normalVelocity));
+
+            // Apply contact force to particle
+            const Eigen::Vector3f& normalForce = -particle.getMass() * (1.0f + coefResist) * normal * dist;
+            const Eigen::Vector3f& frictionForce = -coefFriction * normalForce.norm() * tangentVelocity.normalized();
+            particle.setForce(normalForce + frictionForce);
+        }
+    }
+}

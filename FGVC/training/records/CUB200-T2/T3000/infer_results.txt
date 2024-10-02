@@ -1,0 +1,8 @@
+[Evaluation Results]
+Project: CUB200-T2, Experiment: T3000
+Samples: 2956
+
+    combiner-top-1 95.196%
+    combiner-top-3 98.782%
+
+BEST_ACC: combiner-top-1 95.196% 

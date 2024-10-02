@@ -1,0 +1,151 @@
+{
+    "os": "Linux-5.15.0-89-generic-x86_64-with-glibc2.31",
+    "python": "3.10.12",
+    "heartbeatAt": "2023-12-26T12:56:47.971820",
+    "startedAt": "2023-12-26T12:56:47.860734",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--c",
+        "./configs/CUB200_SwinT.yaml"
+    ],
+    "state": "running",
+    "program": "/home/hcis-s17/YongZhe/ke2/FGVC/main.py",
+    "codePathLocal": "main.py",
+    "codePath": "main.py",
+    "git": {
+        "remote": "https://github.com/chou141253/FGVC-PIM.git",
+        "commit": "348edd983d0007a0cbbce65979aa2fbaade068c8"
+    },
+    "email": null,
+    "root": "/home/hcis-s17/YongZhe/ke2/FGVC",
+    "host": "hcis-s17",
+    "username": "hcis-s17",
+    "executable": "/home/hcis-s17/miniconda3/envs/FINAL/bin/python",
+    "cpu_count": 12,
+    "cpu_count_logical": 20,
+    "cpu_freq": {
+        "current": 3434.71475,
+        "min": 800.0,
+        "max": 4580.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 4488.099,
+            "min": 800.0,
+            "max": 4800.0
+        },
+        {
+            "current": 2100.0,
+            "min": 800.0,
+            "max": 4800.0
+        },
+        {
+            "current": 4462.809,
+            "min": 800.0,
+            "max": 4800.0
+        },
+        {
+            "current": 2100.0,
+            "min": 800.0,
+            "max": 4800.0
+        },
+        {
+            "current": 4478.523,
+            "min": 800.0,
+            "max": 4800.0
+        },
+        {
+            "current": 2100.0,
+            "min": 800.0,
+            "max": 4800.0
+        },
+        {
+            "current": 4473.132,
+            "min": 800.0,
+            "max": 4800.0
+        },
+        {
+            "current": 2100.0,
+            "min": 800.0,
+            "max": 4800.0
+        },
+        {
+            "current": 4473.872,
+            "min": 800.0,
+            "max": 4900.0
+        },
+        {
+            "current": 2100.0,
+            "min": 800.0,
+            "max": 4900.0
+        },
+        {
+            "current": 4491.805,
+            "min": 800.0,
+            "max": 4900.0
+        },
+        {
+            "current": 2100.0,
+            "min": 800.0,
+            "max": 4900.0
+        },
+        {
+            "current": 4468.634,
+            "min": 800.0,
+            "max": 4800.0
+        },
+        {
+            "current": 4499.792,
+            "min": 800.0,
+            "max": 4800.0
+        },
+        {
+            "current": 4474.7,
+            "min": 800.0,
+            "max": 4800.0
+        },
+        {
+            "current": 2100.0,
+            "min": 800.0,
+            "max": 4800.0
+        },
+        {
+            "current": 3483.079,
+            "min": 800.0,
+            "max": 3600.0
+        },
+        {
+            "current": 3399.832,
+            "min": 800.0,
+            "max": 3600.0
+        },
+        {
+            "current": 3400.168,
+            "min": 800.0,
+            "max": 3600.0
+        },
+        {
+            "current": 3399.85,
+            "min": 800.0,
+            "max": 3600.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 937.3305015563965,
+            "used": 818.0436897277832
+        }
+    },
+    "gpu": "NVIDIA GeForce GTX 1080 Ti",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce GTX 1080 Ti",
+            "memory_total": 11811160064
+        }
+    ],
+    "memory": {
+        "total": 31.08626937866211
+    }
+}

@@ -1,0 +1,37 @@
+[Evaluation Results]
+Project: CUB200-T2, Experiment: T3000
+Samples: 2956
+
+    layer1-top-1 92.118%
+    layer1-top-3 97.7%
+    layer2-top-1 92.016%
+    layer2-top-3 97.598%
+    layer3-top-1 92.016%
+    layer3-top-3 97.53%
+    layer4-top-1 92.185%
+    layer4-top-3 97.361%
+    select_layer1-top-1 55.746%
+    select_layer1-top-3 59.279%
+    select_layer2-top-1 91.976%
+    select_layer2-top-3 97.33%
+    select_layer3-top-1 91.761%
+    select_layer3-top-3 97.495%
+    select_layer4-top-1 91.998%
+    select_layer4-top-3 97.334%
+    drop_layer1-top-1 0.082%
+    drop_layer1-top-3 0.396%
+    drop_layer2-top-1 91.728%
+    drop_layer2-top-3 97.036%
+    drop_layer3-top-1 88.84%
+    drop_layer3-top-3 96.446%
+    drop_layer4-top-1 91.478%
+    drop_layer4-top-3 97.333%
+    combiner-top-1 91.779%
+    combiner-top-3 97.327%
+    highest-1 91.847%
+    highest-2 92.118%
+    highest-3 92.152%
+    highest-4 92.05%
+    highest-5 92.05%
+
+BEST_ACC: layer4-top-1 92.185% 

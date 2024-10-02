@@ -1,0 +1,8 @@
+﻿  kinematics.cpp
+C:\Users\asd91\Desktop\念書\三下\電腦動畫\HW2\src\simulation\kinematics.cpp(110,21): warning C4244: '正在初始化': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+C:\Users\asd91\Desktop\念書\三下\電腦動畫\HW2\src\simulation\kinematics.cpp(111,22): warning C4244: '正在初始化': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+  正在產生程式碼
+  Previous IPDB and IOBJ mismatch, fall back to full compilation.
+  All 8309 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成程式碼產生
+  ForwardKinematics.vcxproj -> C:\Users\asd91\Desktop\念書\三下\電腦動畫\HW2\bin\ForwardKinematics.exe
