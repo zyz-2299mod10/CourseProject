@@ -2,7 +2,7 @@
 
 ## Overview
 
-這是國立陽明交通大學111學年度第二學期人工智慧概論課程的期末專題實作。內容為2023 IJCAI CoachAI Badminton Challenge的Track 2: Forecasting Future Turn-Based Strokes in Badminton Rallies。
+2023 IJCAI CoachAI Badminton Challenge的Track 2: Forecasting Future Turn-Based Strokes in Badminton Rallies。
 
 ## Prerequisite
 
